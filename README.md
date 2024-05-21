@@ -586,3 +586,15 @@ charite@DESKTOP-1JCVV8Q /d/Study/Studies/the_gym/GitAdvanced2
 $ git branch -d ft/new-feature
 Deleted branch ft/new-feature (was 527e2bc).
 ```
+
+## Creating a Branch from a Commit
+```bash
+
+charite@DESKTOP-1JCVV8Q /d/Study/Studies/the_gym/GitAdvanced2
+$ git log -1 --pretty=format:%H HEAD~2
+7cfa39540ee3e84d6115223713f8231bdf9f95f6
+
+charite@DESKTOP-1JCVV8Q /d/Study/Studies/the_gym/GitAdvanced2
+$  git checkout -b ft/new-branch-from-commit 7cfa39540ee3e84d6115223713f8231bdf9f95f6
+Switched to a new branch 'ft/new-branch-from-commit'
+```
