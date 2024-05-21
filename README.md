@@ -497,6 +497,7 @@ charite@DESKTOP-1JCVV8Q /d/Study/Studies/the_gym/GitAdvanced2
 $
 
 ```
+# Part2
 ## Feature Branch Creation:
 ```bash
 charite@DESKTOP-1JCVV8Q /d/Study/Studies/the_gym/GitAdvanced2
@@ -578,4 +579,10 @@ remote: Resolving deltas: 100% (7/7), done.
 To https://github.com/charite-uwatwembi/GitAdvanced2.git
  * [new branch]      main -> main
 
+```
+## Branch Deletion
+```bash
+charite@DESKTOP-1JCVV8Q /d/Study/Studies/the_gym/GitAdvanced2
+$ git branch -d ft/new-feature
+Deleted branch ft/new-feature (was 527e2bc).
 ```
