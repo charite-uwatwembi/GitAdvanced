@@ -522,3 +522,31 @@ $  git add feature.txt && git commit -m "Implemented core functionality for new 
  create mode 100644 feature.txt
 
 ```
+## Switching Back and Making More Changes:
+```bash
+charite@DESKTOP-1JCVV8Q /d/Study/Studies/the_gym/GitAdvanced2
+$ git checkout main 
+Switched to branch 'main'
+Your branch is based on 'origin/main', but the upstream is gone.
+  (use "git branch --unset-upstream" to fixup)
+
+charite@DESKTOP-1JCVV8Q /d/Study/Studies/the_gym/GitAdvanced2
+$ git branch
+  ft/branch
+  ft/new-feature
+* main
+
+charite@DESKTOP-1JCVV8Q /d/Study/Studies/the_gym/GitAdvanced2
+$ touche readme.txt
+bash: touche: command not found
+
+charite@DESKTOP-1JCVV8Q /d/Study/Studies/the_gym/GitAdvanced2
+$ touch readme.txt
+
+charite@DESKTOP-1JCVV8Q /d/Study/Studies/the_gym/GitAdvanced2
+$ git add readme.txt && git commit -m "Updated project readme"
+[main d7da6df] Updated project readme
+ 1 file changed, 1 insertion(+)
+ create mode 100644 readme.txt
+
+```
