@@ -639,3 +639,26 @@ $ git branch
   main
 
 ```
+## Checking Out Detached HEAD:
+```bash
+charite@DESKTOP-1JCVV8Q /d/Study/Studies/the_gym/GitAdvanced2
+$ git checkout d7da6df615ad76fa151ed4c9e0e0e29b4f2089a1
+Note: switching to 'd7da6df615ad76fa151ed4c9e0e0e29b4f2089a1'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at d7da6df Updated project readme
+```
