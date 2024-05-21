@@ -617,3 +617,25 @@ $ git merge ft/new-branch-from-commit
 Already up to date.
 
 ```
+## Branch Rebasing:
+```bash
+harite@DESKTOP-1JCVV8Q /d/Study/Studies/the_gym/GitAdvanced2
+$ git checkout ft/new-branch-from-commit
+Switched to branch 'ft/new-branch-from-commit'
+
+charite@DESKTOP-1JCVV8Q /d/Study/Studies/the_gym/GitAdvanced2
+$ git rebase main
+Successfully rebased and updated refs/heads/ft/new-branch-from-commit.
+```
+##  Renaming Branches
+```bash
+charite@DESKTOP-1JCVV8Q /d/Study/Studies/the_gym/GitAdvanced2
+$ git branch -m ft/new-branch-from-commit ft/improved-branch-name
+
+charite@DESKTOP-1JCVV8Q /d/Study/Studies/the_gym/GitAdvanced2
+$ git branch
+  ft/branch
+* ft/improved-branch-name
+  main
+
+```
