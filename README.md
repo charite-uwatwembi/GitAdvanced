@@ -598,3 +598,22 @@ charite@DESKTOP-1JCVV8Q /d/Study/Studies/the_gym/GitAdvanced2
 $  git checkout -b ft/new-branch-from-commit 7cfa39540ee3e84d6115223713f8231bdf9f95f6
 Switched to a new branch 'ft/new-branch-from-commit'
 ```
+
+## Branch Merging
+```bash
+charite@DESKTOP-1JCVV8Q /d/Study/Studies/the_gym/GitAdvanced2
+$  git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+charite@DESKTOP-1JCVV8Q /d/Study/Studies/the_gym/GitAdvanced2
+$ git branch
+  ft/branch
+  ft/new-branch-from-commit
+* main
+
+charite@DESKTOP-1JCVV8Q /d/Study/Studies/the_gym/GitAdvanced2
+$ git merge ft/new-branch-from-commit
+Already up to date.
+
+```
