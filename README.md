@@ -509,3 +509,16 @@ $ git branch
 * ft/new-feature
   main
 ```
+
+## Working on the Feature Branch:
+```bash
+charite@DESKTOP-1JCVV8Q /d/Study/Studies/the_gym/GitAdvanced2
+$ touch feature.txt
+
+charite@DESKTOP-1JCVV8Q /d/Study/Studies/the_gym/GitAdvanced2
+$  git add feature.txt && git commit -m "Implemented core functionality for new feature"
+[ft/new-feature 527e2bc] Implemented core functionality for new feature
+ 1 file changed, 1 insertion(+)
+ create mode 100644 feature.txt
+
+```
