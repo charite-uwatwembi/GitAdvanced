@@ -550,3 +550,32 @@ $ git add readme.txt && git commit -m "Updated project readme"
  create mode 100644 readme.txt
 
 ```
+## Local vs. Remote Branches:
+```bash
+
+charite@DESKTOP-1JCVV8Q /d/Study/Studies/the_gym/GitAdvanced2
+$ git branch
+  ft/branch
+  ft/new-feature
+* main
+
+charite@DESKTOP-1JCVV8Q /d/Study/Studies/the_gym/GitAdvanced2
+$ git merge ft/new-feature
+Merge made by the 'ort' strategy.
+ feature.txt | 1 +
+ 1 file changed, 1 insertion(+)
+ create mode 100644 feature.txt
+
+charite@DESKTOP-1JCVV8Q /d/Study/Studies/the_gym/GitAdvanced2
+$ git push origin main
+Enumerating objects: 17, done.
+Counting objects: 100% (17/17), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (13/13), done.
+Writing objects: 100% (17/17), 1.46 KiB | 298.00 KiB/s, done.
+Total 17 (delta 7), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (7/7), done.
+To https://github.com/charite-uwatwembi/GitAdvanced2.git
+ * [new branch]      main -> main
+
+```
