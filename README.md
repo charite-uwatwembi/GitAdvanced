@@ -1,5 +1,5 @@
-## Part 1
-# Initial commits
+# Part 1
+## Initial commits
 
 ```bash
 charite@DESKTOP-1JCVV8Q /d/Study/Studies/the_gym/GitAdvanced2
@@ -54,7 +54,7 @@ Date:   Mon May 20 18:02:20 2024 +0200
     Initial commit
 
 ```
-# staging/adding test4.md and amending the commit message 
+## staging/adding test4.md and amending the commit message 
 ```bash
 $ git add test4.md & git commit --amend
 [1] 1561
@@ -84,7 +84,7 @@ Once you are satisfied with your changes, run
  $ git rebase --continue
 Successfully rebased and updated refs/heads/main.
 ```
-# Editing Commit History:
+## Editing Commit History:
 
 ```bash
 $ git rebase -i HEAD~3
@@ -110,7 +110,7 @@ Date:   Tue May 21 08:55:11 2024 +0200
 
     chore: Create second file
 ```
-# Splitting a Commit:
+## Splitting a Commit:
 ```bash
 $ git reset HEAD~
 
@@ -159,7 +159,7 @@ Date:   Tue May 21 08:52:02 2024 +0200
 
 ```
 
-# Dropping a acommit 
+## Dropping a acommit 
 
 ```bash
 $ touch unwanted.txt
@@ -257,7 +257,7 @@ Date:   Tue May 21 10:40:17 2024 +0200
 
 charite@DESKTOP-1JCVV8Q /d/Study/Studies/the_gym/GitAdvanced2
 ```
-# Reordering Commits:
+## Reordering Commits:
 ```bash
 $ git log
 commit c0d894c2cf5e160dfd8f18efe47c9c2cda219a5f (HEAD -> main)
@@ -312,7 +312,7 @@ $
 
 charite@DESKTOP-1JCVV8Q /d/Study/Studies/the_gym/GitAdvanced2
 ```
-# Cherry-Picking Commits:
+## Cherry-Picking Commits:
 
 ```bash
 $ git checkout -b ft/branch
@@ -433,7 +433,7 @@ $ git branch
 
 charite@DESKTOP-1JCVV8Q /d/Study/Studies/the_gym/GitAdvanced2
 ```
-# Visualizing Commit History (Bonus):
+## Visualizing Commit History (Bonus):
 ```bash
 $ git log --graph
 * commit 7cfa39540ee3e84d6115223713f8231bdf9f95f6 (HEAD -> main)
@@ -462,7 +462,7 @@ $ git log --graph
 
 charite@DESKTOP-1JCVV8Q /d/Study/Studies/the_gym/GitAdvanced2
 ```
-# Understanding Reflogs (Bonus):
+## Understanding Reflogs (Bonus):
 ```bash
 $ git reflog
 7cfa395 (HEAD -> main) HEAD@{0}: cherry-pick: Implemented Test 5
