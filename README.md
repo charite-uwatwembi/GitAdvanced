@@ -662,3 +662,39 @@ Turn off this advice by setting config variable advice.detachedHead to false
 
 HEAD is now at d7da6df Updated project readme
 ```
+
+# Part3
+## Stashing Changes:
+
+```bash
+charite@DESKTOP-1JCVV8Q /d/Study/Studies/the_gym/GitAdvanced2
+$ git stash
+Saved working directory and index state WIP on main: c096427 Merge branch 'ft/new-feature'
+```
+## Retrieving Stashed Changes:
+```bash
+```
+## Branch Merging Conflicts (Continued):
+```bash
+```
+## Resolving Merge Conflicts with a Merge Tool:
+```bash
+```
+## Understanding Detached HEAD State:
+```bash
+```
+## Ignoring Files/Directories:
+```bash
+```
+## Working with Tags:
+```bash
+```
+## Listing and Deleting Tags:
+```bash
+```
+## Pushing Local Work to Remote Repositories:
+```bash
+```
+## Pulling Changes from Remote Repositories:
+```bash
+```
