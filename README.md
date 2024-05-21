@@ -673,6 +673,20 @@ Saved working directory and index state WIP on main: c096427 Merge branch 'ft/ne
 ```
 ## Retrieving Stashed Changes:
 ```bash
+
+charite@DESKTOP-1JCVV8Q /d/Study/Studies/the_gym/GitAdvanced2
+$ git stash pop
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   readme.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+Dropped refs/stash@{0} (09ff8a80fbe45bc12326929ad2dc5882c52250b0)
+
 ```
 ## Branch Merging Conflicts (Continued):
 ```bash
