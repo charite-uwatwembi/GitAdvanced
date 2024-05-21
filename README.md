@@ -497,3 +497,15 @@ charite@DESKTOP-1JCVV8Q /d/Study/Studies/the_gym/GitAdvanced2
 $
 
 ```
+## Feature Branch Creation:
+```bash
+charite@DESKTOP-1JCVV8Q /d/Study/Studies/the_gym/GitAdvanced2
+$ git checkout -b ft/new-feature
+Switched to a new branch 'ft/new-feature'
+
+charite@DESKTOP-1JCVV8Q /d/Study/Studies/the_gym/GitAdvanced2
+$ git branch
+  ft/branch
+* ft/new-feature
+  main
+```
