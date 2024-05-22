@@ -545,7 +545,7 @@ charite@DESKTOP-1JCVV8Q /d/Study/Studies/the_gym/GitAdvanced2
 $ touch readme.txt
 
 charite@DESKTOP-1JCVV8Q /d/Study/Studies/the_gym/GitAdvanced2
-$ git add readme.txt && git commit -m "Updated project readme"
+$ git add readme.txt && git commit -m "Updated project Readme"
 [main d7da6df] Updated project readme
  1 file changed, 1 insertion(+)
  create mode 100644 readme.txt
