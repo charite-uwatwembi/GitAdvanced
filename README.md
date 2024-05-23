@@ -709,6 +709,4 @@ Dropped refs/stash@{0} (09ff8a80fbe45bc12326929ad2dc5882c52250b0)
 ## Pushing Local Work to Remote Repositories:
 ```bash
 ```
-## Pulling Changes from Remote Repositories:
-```bash
-```
+# The End !
